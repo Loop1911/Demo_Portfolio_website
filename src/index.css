@@ -1,0 +1,57 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  box-sizing: border-box ;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgb(31, 30, 30);
+}
+
+
+  h4 ,p,a{
+  color: white;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.btn {
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:rgb(248,217,15);
+  color: black;
+  border-width: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.btn-light{
+  padding: 12px 32px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  background:rgb(248,217,15);
+  color: black;
+  border-width: 1px solid white;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 1rem;
+}
+
+.btn:hover{
+  background:rgba(255,255,255,0.2);
+  color:white;
+  transition: 0.3s;
+}
+
+.btn-light:hover{
+  background: transparent;
+  color: white;
+  transition: 0.3s;
+}
